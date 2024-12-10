@@ -1,0 +1,77 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Generated files
+dist/
+build/
+out/
+
+# Platform-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Electron-packager and Electron-builder output
+release/
+*.asar
+
+# Sentry debug information files
+*.map
+
+# VScode specific files
+.vscode/
+.vscode-test/
+
+# OS-specific files
+*.swp
+.swo
+.idea/
+
+# macOS generated files
+*.plist
+*.lock
+
+# Temp files
+/tmp/
+/temp/
+/.cache/
+
+# Coverage reports
+coverage/
+
+# Test files
+*.spec.js
+*.test.js
+*.snap
+
+# Babel and Webpack
+.cache/
+.babelrc
+.babelrc.js
+.babelignore
+.webpack/
+
+# Linting
+.eslintcache
+.stylelintcache
+
+__pycache__/
